@@ -3,6 +3,7 @@ image: python:3.12
 stages:
   - test
 
+# install dependencies
 before_script:
   - pip install pytest
 
